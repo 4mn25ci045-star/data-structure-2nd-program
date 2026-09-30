@@ -19,7 +19,6 @@ int countSUM = 0, countTRANS = 0;
 int rowsA, colsA, rowsB, colsB;
 
 
-/* Function to read sparse matrix */
 void readMatrix(struct sparse M[], int *count, int *rows, int *cols)
 {
     int i, j, value;
@@ -55,7 +54,6 @@ void readMatrix(struct sparse M[], int *count, int *rows, int *cols)
 }
 
 
-/* Function to display sparse matrix in triplet form */
 void display(struct sparse M[])
 {
     int i;
@@ -335,4 +333,5 @@ int main()
     }
 
     return 0;
-}# data-structure-2nd-program
+}
+# data-structure-2nd-program
